@@ -3,12 +3,12 @@ USE_CAMERA_STUB := true
 # inherit from the proprietary version
 -include vendor/micromax/a70/BoardConfigVendor.mk
 
-TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := msm7k
+TARGET_ARCH_VARIANT := armv6-vfp
 TARGET_CPU_ABI := armeabi-v6l
 TARGET_CPU_ABI2 := armeabi
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
-TARGET_BOOTLOADER_BOARD_NAME := a70
+ARGET_BOOTLOADER_BOARD_NAME := a70
 
 BOARD_KERNEL_CMDLINE := mem=212M console=ttyMSM2 androidboot.hardware=qcom
 BOARD_KERNEL_BASE := 0x00200000
