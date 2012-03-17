@@ -33,7 +33,7 @@ JS_ENGINE := v8
 
 # Camera
 USE_CAMERA_STUB := false
-BOARD_USE_FROYO_LIBCAMERA := true
+#BOARD_USE_FROYO_LIBCAMERA := true
 
 # DexPreOpt
 WITH_DEXPREOPT := true
