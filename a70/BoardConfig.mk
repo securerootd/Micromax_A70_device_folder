@@ -19,7 +19,7 @@ TARGET_OTA_ASSERT_DEVICE := thunderg
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 #TARGET_NO_RECOVERY := true
-BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/lge/thunderg/recovery/recovery_ui.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/micromax/a70/recovery/recovery_ui.c
 
 # Audio
 TARGET_PROVIDES_LIBAUDIO := true
@@ -27,7 +27,6 @@ TARGET_PROVIDES_LIBAUDIO := true
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_CUSTOM_BRCM_PATCHRAM_PLUS := ../../../device/lge/thunderg/prebuilt/brcm_patchram_plus.c
 
 # Browser
 JS_ENGINE := v8
